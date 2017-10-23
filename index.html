@@ -7,6 +7,14 @@
 	<meta name="description" content="JD Homepage">
     <title>JD Homepage</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt">
+    <style>
+      body {
+        font-family: 'Prompt', sans-serif;
+        font-size: 24px;
+        color: #265366;
+      }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
     
@@ -25,8 +33,8 @@
             </nav>
         </header>
         <br>
-        <div>
-		  <video controls>
+        <div id="video">
+		  <video width="1000" controls>
 		  <source src="assets/video/VideoPlaceholder.mp4" type="video/mp4">
 	       </video>
 	   </div>
@@ -38,47 +46,53 @@
         </blockquote>
         <div id="categories">
             <div>
-                <img class="categories" src="assets/img/Portraits_WEB.jpg">
+                <img class="group1" src="assets/img/Portraits_WEB.jpg">
                 <p><a href="Portraits"  class="btn">Portraits</a></p>
             </div>
             <div>
-                <img class="categories" src="assets/img/Architecture_WEB.jpg">
+                <img class="group2" src="assets/img/Architecture_WEB.jpg">
                 <p><a href="Architecture"  class="btn">Architecture</a></p>
             </div>
             <div>
-                <img class="categories" src="assets/img/Landscapes_WEB.jpg">
+                <img class="group1" src="assets/img/Landscapes_WEB.jpg">
                 <p><a href="Landscapes"  class="btn">Landscapes</a></p>
             </div>
             <div>
-                <img class="categories" src="assets/img/Events_WEB.jpg">
+                <img class="group2" src="assets/img/Events_WEB.jpg">
                 <p><a href="Events"  class="btn">Events</a></p> 
             </div>
         </div>
         <div id="inspiration">
-            <div class="">
+            <div class="blurb">
             <p>This space reserved for a short blurb about what inspires the artist. This space reserved for a short blurb about what inspires the artist. This space reserved for a short blurb about what inspires the artist. This space reserved for a short blurb about what inspires the artist. 
             </p>
             </div>
-            <div class="FemaleAvatarRound">    
+        </div>
+        <div id="avatar">
+            <div class="femaleavatar">    
             <p><img src="assets/img/FemaleAvatar_REV.png"></p>
             </div>
         </div>
-	<footer id="foot">
-        <ul>
-            <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+	<footer>
         <img id="logoclass" src="assets/img/LogoClass.png">
-        <p>
-        123 Wireframe Street | 4th Floor | Brooklyn | New York | 11201 </p>
+                <ul>
+                <li><a href="contact.html" class="btncontact">Contact Us</a></li>
+                </ul>
+        <style>
+            p {
+                text-align: center;
+            }
+        </style>
+        <p><font color="white">123 Wireframe Street | 4th Floor | Brooklyn | New York | 11201 </font></p>
+            <section id="footersocial">
+        
                 <ul>
                     <li><a href="#" class="fa fa-facebook"></a></li>
-				<li>
-					<a href="#" class="fa fa-twitter"></a>
-				</li>
-				<li>
-					<a href="#" class="fa fa-instagram"></a></li>
+				    <li><a href="#" class="fa fa-twitter"></a></li>
+				    <li><a href="#" class="fa fa-instagram"></a></li>
                 </ul>
-
+            
+            </section>
     </footer>    
     
     </body>
